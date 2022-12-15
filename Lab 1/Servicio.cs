@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab_1
 {
-    abstract class Servicio
+    abstract public class Servicio
     {
      
      protected float entry;

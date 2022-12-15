@@ -7,15 +7,17 @@ using System.Threading.Tasks;
 
 namespace Lab_1
 {
-    class Renta_de_autos:Servicio
+    public class Renta_de_autos:Servicio
     {
 
         private int days;
         private float rate;
-        public Renta_de_autos (int x, float y, int a ) : base(a)
+        private string tuition;
+        public Renta_de_autos (int x, float y, int a, string z ) : base(a)
         {
             days = x;
             rate = y;
+            tuition = z;
         }
 
         public override void print()
@@ -27,6 +29,9 @@ namespace Lab_1
         public int getDays() { return this.days; }
         public float getRate() { return this.rate; }
         public void setRate ( float rate ) { this.rate = rate;}
+        public string gettuition() { return this.tuition; }
+        public void settuition (string z) { this.tuition = z;}
+
 
         public override float Final_price()
         {

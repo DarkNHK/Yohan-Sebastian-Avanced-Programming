@@ -6,16 +6,21 @@ using System.Threading.Tasks;
 
 namespace Lab_1
 {
-    internal class Taxi:Servicio
+    public class Taxi:Servicio
     {
 
-        private float rate;
-        private float kilometers;
+        public float rate;
+        public float kilometers;
+        public string name;
+        public int Id;
+     
 
-        public Taxi(float rate, float kilometers, int a) : base (a)
+        public Taxi(float rate, float kilometers, int a, string n, int i) : base (a)
         {
             this.rate = rate;
             this.kilometers = kilometers;
+            this.name = n;
+            this.Id = i;
         }
 
         public override void print()
@@ -27,6 +32,10 @@ namespace Lab_1
         public float getRate () { return rate; }
         public float getKilometers () { return kilometers; }
         public void setKilometers ( float x ) { kilometers = x; }
+        public string getName() { return name; }
+        public void setName ( string name ) { this.name = name; }
+        
+        public int getId() { return Id; }
 
         public override float Final_price()
         {
