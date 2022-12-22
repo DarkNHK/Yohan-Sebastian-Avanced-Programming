@@ -5,13 +5,13 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab 1", "Lab 1\Lab 1.csproj", "{FBB1EA95-3792-4B48-9C12-7AC1715516C6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "..\Repository\Repository\Repository.csproj", "{32495FE9-6317-4D11-9871-87193DE4F7C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository\Repository.csproj", "{32495FE9-6317-4D11-9871-87193DE4F7C3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "..\..\WebAPI\WebAPI.csproj", "{56B8EA03-9CD6-418B-8D0F-EDD04FD5FAEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{56B8EA03-9CD6-418B-8D0F-EDD04FD5FAEA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositorytests", "..\..\Repositorytests\Repositorytests.csproj", "{DE484F2E-763D-4ABB-A021-E6CC016F6DC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositorytests", "Repositorytests\Repositorytests.csproj", "{DE484F2E-763D-4ABB-A021-E6CC016F6DC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WedApiTests", "..\..\WedApiTests\WedApiTests.csproj", "{BC47D1EF-2477-4175-99A4-926993FB75A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WedApiTests", "WedApiTests\WedApiTests.csproj", "{BC47D1EF-2477-4175-99A4-926993FB75A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
